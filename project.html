@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Abby Hall - Portfolio Projects in Machine Learning, Data Science, Python, NLP, and Database Systems.">
+  <meta name="description" content="Abby Hall - Portfolio Projects in Cost Accounting, Financial Accounting Cycles, MySQL Relational Databases, and Predictive Data Analytics.">
   <title>Projects | Abby Hall</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -40,7 +40,7 @@
         </div>
         <h1 class="page-title">Featured Projects</h1>
         <p class="page-subtitle">
-          An interactive collection of machine learning experiments, data pipelines, database architectures, and software tools.
+          Applied work spanning cost accounting case analysis, full-cycle financial modeling, relational MySQL database architecture, and data analytics.
         </p>
       </div>
     </section>
@@ -52,120 +52,77 @@
         <!-- Filter Tabs -->
         <div class="filter-tabs" id="project-filter-tabs">
           <button class="filter-btn active" data-filter="all">All Projects</button>
-          <button class="filter-btn" data-filter="ml">Machine Learning</button>
-          <button class="filter-btn" data-filter="data">Data Engineering & NLP</button>
-          <button class="filter-btn" data-filter="dev">Python & Systems</button>
+          <button class="filter-btn" data-filter="accounting">Accounting & Finance</button>
+          <button class="filter-btn" data-filter="database">Database & Systems</button>
+          <button class="filter-btn" data-filter="analytics">Data Analytics & Tableau</button>
         </div>
 
         <!-- Grid of Project Cards -->
         <div class="cards-grid" id="projects-container">
           
-          <!-- Project 1 -->
-          <article class="card project-item" data-category="ml" id="project-xgboost-housing">
-            <span class="card-tag">Machine Learning &bull; Regression</span>
-            <h2 class="card-title">Housing Price Prediction with XGBoost</h2>
+          <!-- Project 1: Cost Accounting Opera Case Study -->
+          <article class="card project-item" data-category="accounting" id="project-opera-cost-accounting">
+            <span class="card-tag">Cost Accounting &bull; Managerial Analysis</span>
+            <h2 class="card-title">Opera Production Pricing & Repertoire Case Study</h2>
             <p class="card-text">
-              Engineered a gradient boosted tree model using XGBoost to predict residential property valuations based on 70+ demographic and structural features. Implemented median imputation, target encoding, and k-fold cross-validation.
+              Conducted an in-depth cost accounting analysis to determine optimal production pricing and seasonal repertoire selection for an opera company. Evaluated fixed venue overhead, cast and crew wages, variable production costs, and ticket demand elasticity to recommend a profitable pricing strategy and maximize contribution margin across performances.
             </p>
             <div class="tech-tags">
-              <span class="tag-pill">Python</span>
-              <span class="tag-pill">XGBoost</span>
-              <span class="tag-pill">Pandas</span>
-              <span class="tag-pill">Scikit-Learn</span>
-              <span class="tag-pill">Jupyter</span>
-            </div>
-            <div class="card-footer">
-              <span style="font-size: 0.85rem; color: var(--text-muted);">Spring 2026</span>
-              <a href="#" class="card-link" onclick="alert('Project repository & notebook available in local workspace: /XGBoost - Housing Prices'); return false;">
-                <span>View Notebook</span> &rarr;
-              </a>
+              <span class="tag-pill">Cost Accounting</span>
+              <span class="tag-pill">Pricing Optimization</span>
+              <span class="tag-pill">Contribution Margin</span>
+              <span class="tag-pill">Break-Even Analysis</span>
+              <span class="tag-pill">Case Analysis</span>
             </div>
           </article>
 
-          <!-- Project 2 -->
-          <article class="card project-item" data-category="data" id="project-web-scraping-nlp">
-            <span class="card-tag">NLP &bull; Web Mining</span>
-            <h2 class="card-title">Automated Web Scraper & NLTK Text Pipeline</h2>
+          <!-- Project 2: Mock Bicycle Company Accounting Cycle -->
+          <article class="card project-item" data-category="accounting" id="project-bicycle-accounting-cycle">
+            <span class="card-tag">Financial Accounting &bull; General Ledger</span>
+            <h2 class="card-title">Mock Bicycle Company: Full Accounting Cycle</h2>
             <p class="card-text">
-              Developed an automated web harvesting tool collecting unstructured quote and article data, passing outputs into an NLTK pipeline for tokenization, stop-word removal, POS tagging, and sentiment analysis.
+              Executed the entire operational accounting cycle for a simulated commercial bicycle enterprise. Managed and recorded daily business activity including credit sales and cash receipts, vendor purchase orders, inventory tracking, adjusting and closing entries, and multi-tier payroll calculations and tax withholdings.
             </p>
             <div class="tech-tags">
-              <span class="tag-pill">Python</span>
-              <span class="tag-pill">NLTK</span>
-              <span class="tag-pill">BeautifulSoup</span>
-              <span class="tag-pill">Scrapy</span>
-              <span class="tag-pill">Regex</span>
-            </div>
-            <div class="card-footer">
-              <span style="font-size: 0.85rem; color: var(--text-muted);">Spring 2026</span>
-              <a href="#" class="card-link" onclick="alert('Project pipeline available in local workspace: /web_scraping_nltk_finish.ipynb'); return false;">
-                <span>View Notebook</span> &rarr;
-              </a>
+              <span class="tag-pill">Full Accounting Cycle</span>
+              <span class="tag-pill">Sales & Cash Receipts</span>
+              <span class="tag-pill">Payroll Processing</span>
+              <span class="tag-pill">Purchases & Payables</span>
+              <span class="tag-pill">Trial Balance</span>
             </div>
           </article>
 
-          <!-- Project 3 -->
-          <article class="card project-item" data-category="dev" id="project-db-connector">
-            <span class="card-tag">Databases &bull; Architecture</span>
-            <h2 class="card-title">Enterprise Database Connectors & Query Layer</h2>
+          <!-- Project 3: Beauty Store Database (MySQL) -->
+          <article class="card project-item" data-category="database" id="project-beauty-store-database">
+            <span class="card-tag">Relational Database &bull; SQL</span>
+            <h2 class="card-title">Beauty Store Relational Database Architecture (MySQL)</h2>
             <p class="card-text">
-              Created modular database connection handlers in Python providing connection pooling, automated retry logic, parameterized queries, and schema migration utilities for analytical data warehouses.
+              Designed and implemented a normalized relational database in MySQL for an e-commerce beauty retail store. Structured relational tables linking customer records, product catalogs (productID, categories, unit prices), purchase orders, and itemized transaction lines, writing structured SQL queries to analyze customer order trends and track inventory levels.
             </p>
             <div class="tech-tags">
-              <span class="tag-pill">Python</span>
-              <span class="tag-pill">PostgreSQL</span>
-              <span class="tag-pill">SQL</span>
-              <span class="tag-pill">DB-API</span>
-            </div>
-            <div class="card-footer">
-              <span style="font-size: 0.85rem; color: var(--text-muted);">2025 &ndash; 2026</span>
-              <a href="#" class="card-link" onclick="alert('Database connectors available in local workspace: /DBConnections'); return false;">
-                <span>View Source</span> &rarr;
-              </a>
+              <span class="tag-pill">MySQL</span>
+              <span class="tag-pill">Relational Schema</span>
+              <span class="tag-pill">SQL Queries</span>
+              <span class="tag-pill">Data Normalization</span>
+              <span class="tag-pill">E-Commerce Schema</span>
             </div>
           </article>
 
-          <!-- Project 4 -->
-          <article class="card project-item" data-category="dev" id="project-blackjack-simulation">
-            <span class="card-tag">Algorithms &bull; Simulation</span>
-            <h2 class="card-title">Monte Carlo Blackjack Probability Simulator</h2>
+          <!-- Project 4: LinkedIn Job Postings Driver Analysis (Tableau) -->
+          <article class="card project-item" data-category="analytics" id="project-linkedin-tableau">
+            <span class="card-tag">Data Visualization &bull; Tableau</span>
+            <h2 class="card-title">LinkedIn Job Posting Drivers: Visual Analysis & Presentation</h2>
             <p class="card-text">
-              Implemented a full simulation game engine and probability calculator in Python to analyze expected values and optimal dealer vs. player strategies over millions of randomized hands.
+              Researched and built a visual analytics presentation investigating the key variables and market factors that drive job postings on LinkedIn. Leveraged diverse Tableau capabilities—including interactive dashboards, calculated fields, dynamic parameters, and visual storytelling—to uncover hiring patterns, demand by industry, and key job characteristics.
             </p>
             <div class="tech-tags">
-              <span class="tag-pill">Python 3</span>
-              <span class="tag-pill">Probability</span>
-              <span class="tag-pill">CLI Game Engine</span>
-            </div>
-            <div class="card-footer">
-              <span style="font-size: 0.85rem; color: var(--text-muted);">2026</span>
-              <a href="#" class="card-link" onclick="alert('Simulation script available in local workspace: /pythonblackjack.py'); return false;">
-                <span>View Source</span> &rarr;
-              </a>
+              <span class="tag-pill">Tableau</span>
+              <span class="tag-pill">Data Visualization</span>
+              <span class="tag-pill">Calculated Fields</span>
+              <span class="tag-pill">Interactive Dashboards</span>
+              <span class="tag-pill">Labor Market Analytics</span>
             </div>
           </article>
-
-          <!-- Project 5 -->
-          <article class="card project-item" data-category="ml" id="project-isds-capstone">
-            <span class="card-tag">Machine Learning &bull; Analytics</span>
-            <h2 class="card-title">ISDS Advanced Predictive Modeling Capstone</h2>
-            <p class="card-text">
-              Comprehensive final project synthesizing classification, regression, and clustering algorithms on enterprise operational datasets to solve real-world decision-making bottlenecks.
-            </p>
-            <div class="tech-tags">
-              <span class="tag-pill">Python</span>
-              <span class="tag-pill">Pandas</span>
-              <span class="tag-pill">NumPy</span>
-              <span class="tag-pill">Scikit-Learn</span>
-            </div>
-            <div class="card-footer">
-              <span style="font-size: 0.85rem; color: var(--text-muted);">Spring 2026</span>
-              <a href="#" class="card-link" onclick="alert('Capstone notebook available in local workspace: /ISDS3107_final_Spring2026.ipynb'); return false;">
-                <span>View Notebook</span> &rarr;
-              </a>
-            </div>
-          </article>
-
         </div>
       </div>
     </section>

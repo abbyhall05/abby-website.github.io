@@ -486,6 +486,10 @@ a {
   margin-bottom: 1.5rem;
 }
 
+.card .tech-tags:last-child {
+  margin-bottom: 0;
+}
+
 .tag-pill {
   font-family: var(--font-mono);
   font-size: 0.75rem;
