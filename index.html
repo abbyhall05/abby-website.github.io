@@ -7,7 +7,8 @@
   <meta name="description"
     content="Abby Hall - Dual Accounting and Information Systems and Analytics major at LSU graduating May 2027. Pursuing a career in external audit and planning to earn CPA licensure upon graduation.">
   <title>Abby Hall | Accounting & Information Systems and Analytics | LSU</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="theme.js?v=2"></script>
 </head>
 
 <body>
@@ -24,12 +25,23 @@
         <li><a href="resume.html" class="nav-link" id="nav-resume">Resume</a></li>
         <li><a href="project.html" class="nav-link" id="nav-projects">Projects</a></li>
       </ul>
-      <a href="mailto:abbymh05@gmail.com" class="nav-cta" id="nav-contact-btn">
-        <span>Get in Touch</span>
-        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-        </svg>
-      </a>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg class="sun-icon" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5" stroke-width="2"/>
+            <path stroke-linecap="round" stroke-width="2" d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+          <svg class="moon-icon" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+          </svg>
+        </button>
+        <a href="mailto:abbymh05@gmail.com" class="nav-cta" id="nav-contact-btn">
+          <span>Get in Touch</span>
+          <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -98,7 +110,7 @@
         <div class="section-header">
           <div>
             <h2 class="section-title">Core Competencies</h2>
-            <p class="section-subtitle">Bridging data intelligence and software engineering.</p>
+            <p class="section-subtitle">Bridging financial analysis, relational databases, data analytics, and certified technical credentials.</p>
           </div>
         </div>
 
@@ -148,6 +160,31 @@
               <span class="tag-pill">Excel Expert</span>
               <span class="tag-pill">Alteryx</span>
               <span class="tag-pill">Visual Dashboards</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Professional Certifications -->
+          <div class="card" id="card-certifications">
+            <span class="card-tag">Accreditations & Credentials</span>
+            <h3 class="card-title">Professional Certifications</h3>
+            <p class="card-text">
+              Industry-recognized credentials verifying advanced spreadsheet modeling, data transformation pipelines, and automated business analytics:
+            </p>
+            <ul style="list-style: none; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.92rem; color: var(--text-main);">
+              <li style="display: flex; gap: 0.55rem; align-items: flex-start;">
+                <span style="color: var(--accent); font-weight: bold;">&bull;</span>
+                <span><strong>Microsoft Office Specialist:</strong> Excel Expert (Microsoft 365 Apps)</span>
+              </li>
+              <li style="display: flex; gap: 0.55rem; align-items: flex-start;">
+                <span style="color: var(--accent); font-weight: bold;">&bull;</span>
+                <span><strong>Alteryx Designer Core</strong> Certification</span>
+              </li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tag-pill">MOS Excel Expert</span>
+              <span class="tag-pill">Alteryx Core</span>
+              <span class="tag-pill">Data Prep</span>
+              <span class="tag-pill">Automation</span>
             </div>
           </div>
         </div>
