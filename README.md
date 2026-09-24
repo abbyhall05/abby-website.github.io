@@ -1,2 +1,3 @@
 This is a professional website containing information about myself such as my resume, projects I have completed, and my future plans.
 http://localhost:8080
+Coming into this project I had no experience with vibe coding and very little experience with coding to create websites. Using vibe coding for this website made the entire process go so much smoother. One specific thing that I learned through using this agent was that you can add a theme.js file to change what your website looks like in addition to the style.css. After asking the agent about the difference between these two files I learned that the theme.js file is what allows the control of light and dark modes on my website, and the style.css file holds the rules for when the theme is changed from dark to light. 
